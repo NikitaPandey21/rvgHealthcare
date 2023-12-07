@@ -1,0 +1,144 @@
+.app-container {
+	 height: 100vh;
+	 color: #050505;;
+}
+
+ .app-container .app-header-wrapper .app-header {
+	 background: rgba(238, 235, 235, 0.84);
+	 box-shadow: 0px 6px 16px #333 ba;
+}
+ .app-container .app-header-wrapper .app-header .app-med .cover-link {
+	 text-decoration: none;
+	 color: #050505;
+}
+ .app-container .app-header-wrapper .app-header .app-med .cover-link:hover {
+	 cursor: pointer;
+	 color: #050505 aa;
+}
+ .app-container .app-header-wrapper .app-header .app-menu .list-inline .list-inline-item {
+	 margin: 0 1rem;
+}
+ .app-container .app-header-wrapper .app-header .app-menu .list-inline .list-inline-item a {
+	 text-decoration: none;
+	 color: #050505;
+}
+ .app-container .app-header-wrapper .app-header .app-menu .list-inline .list-inline-item a:hover {
+	 cursor: pointer;
+	 color: #050505 aa;
+}
+ .app-container .app-header-wrapper .app-header .app-link .list-inline .list-inline-item {
+	 margin: 0 0 0 0.875rem;
+}
+ .app-container .app-header-wrapper .app-header .app-link .list-inline .list-inline-item a {
+	 color: #050505;
+}
+ .app-container .app-header-wrapper .app-header .app-link .list-inline .list-inline-item a:hover {
+	 color: #050505 aa;
+}
+ .app-container .app-content {
+	 overflow-x: auto;
+	 scroll-behavior: smooth;
+}
+ .app-container .app-content .app-about #cover-page .cover-bg-img {
+	 height: calc(100vh - 90px);
+}
+
+
+ .app-container .app-content .app-about #about-med .about-med-text {
+	 width: 900px;
+}
+ @media screen and (max-width: 992px) {
+	 .app-container .app-content .app-about #about-med .about-med-text {
+		 width: auto;
+	}
+}
+
+
+ .app-container .app-content .app-about #book-section .book-title {
+	 -webkit-animation-name: color-transition;
+	 animation-name: color-transition;
+	 -webkit-animation-duration: 10s;
+	 animation-duration: 10s;
+	 -webkit-animation-direction: alternate;
+	 animation-direction: alternate;
+	 -webkit-animation-iteration-count: infinite;
+	 animation-iteration-count: infinite;
+	 -webkit-animation-timing-function: linear;
+	 animation-timing-function: linear;
+}
+ @media screen and (max-width: 992px) {
+	 .app-container .app-content .app-about #book-section .book-info {
+		 flex-direction: column-reverse;
+	}
+}
+ .app-container .app-content .app-about #book-section .book-info .book-story {
+	 width: 600px;
+}
+ @media screen and (max-width: 992px) {
+	 .app-container .app-content .app-about #book-section .book-info .book-story {
+		 width: auto;
+	}
+}
+ .app-container .app-content .app-about #book-section .book-info .book-story .book-desc {
+	 width: 500px;
+}
+ @media screen and (max-width: 992px) {
+	 .app-container .app-content .app-about #book-section .book-info .book-story .book-desc {
+		 width: auto;
+	}
+}
+ .app-container .app-content .app-about #book-section .book-info .book-story .book-desc .buy-link {
+	 font-weight: 600;
+	 text-decoration: none;
+	 color: #89cbca;
+}
+ .app-container .app-content .app-about #book-section .book-info .book-story .book-desc .buy-link:hover {
+	 color: #89cbca AA;
+	 border-bottom: 2px solid #89cbca AA;
+}
+ .app-container .app-content .app-about #book-section .book-info .book-img {
+	 width: 600px;
+}
+ @media screen and (max-width: 992px) {
+	 .app-container .app-content .app-about #book-section .book-info .book-img {
+		 width: auto;
+	}
+}
+ .app-container .app-content .app-about #book-section .book-info .book-img img {
+	 border-radius: 8px;
+}
+ .app-container .app-content .app-about #author-portfolio .portfolio-images {
+	 width: 1200px;
+}
+ @media screen and (max-width: 992px) {
+	 .app-container .app-content .app-about #author-portfolio .portfolio-images {
+		 width: auto;
+		 justify-content: center;
+	}
+}
+ .app-container .app-content .app-about #author-portfolio .portfolio-images .portfolio-img-card {
+	 box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	 overflow: hidden;
+}
+ .app-container .app-content .app-about #author-portfolio .portfolio-images .portfolio-img-card .portfolio-img {
+	 width: 284px;
+	 cursor: pointer;
+	 opacity: 1;
+	 transform: scale(1);
+	 transition: 0.5s;
+}
+ @media screen and (max-width: 992px) {
+	 .app-container .app-content .app-about #author-portfolio .portfolio-images .portfolio-img-card .portfolio-img {
+		 width: 200px;
+	}
+}
+ .app-container .app-content .app-about #author-portfolio .portfolio-images .portfolio-img-card .portfolio-img:hover {
+	 opacity: 0.67;
+	 transform: scale(1.05);
+}
+ .app-container .app-content .app-footer {
+	 font-size: 1rem;
+	 background-color: #111;
+	 box-shadow: 0px -6px 16px #333 ba;
+}
+ 
